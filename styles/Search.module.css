@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.search {
+  width: 40%;
+  height: 50px;
+  background: #1e1e30;
+  color: #4d525e;
+  font-size: large;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  text-align: center;
+  margin-bottom: 40px;
+}

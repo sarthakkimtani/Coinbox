@@ -1,0 +1,63 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.graph_container {
+  display: inherit;
+  background-color: #151d33;
+  margin: 20px;
+  padding: 20px;
+  width: 80%;
+  height: 450px;
+  border-radius: 6px;
+}
+
+.heading {
+  display: inherit;
+  align-items: center;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  margin-right: 6px;
+}
+
+.price_heading {
+  display: inherit;
+  align-items: center;
+}
+
+.price {
+  font-size: 32px;
+}
+
+.coin_green {
+  margin: 12px;
+  font-size: 18px;
+  color: #28a745;
+}
+
+.coin_red {
+  margin: 12px;
+  font-size: 18px;
+  color: #ff073a;
+}
+
+.description {
+  margin-top: 40px;
+  padding-top: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-bottom: 30px;
+  background-color: #1e1e30;
+  width: 80%;
+  border-radius: 6px;
+}
+
+.para {
+  font-size: 16px;
+  line-height: 1.5;
+}
