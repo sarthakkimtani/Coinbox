@@ -22,12 +22,14 @@ export default function Coins({
           </div>
           <div className={styles.coin_data}>
             <p className={styles.coin_price}>${price.toLocaleString()}</p>
+
             {priceChange < 0 ? (
               <p className={styles.coin_red}>{priceChange.toFixed(2)}%</p>
             ) : (
               <p className={styles.coin_green}>{priceChange.toFixed(2)}%</p>
             )}
             <p className={styles.coin_volume}>${volume.toLocaleString()}</p>
+
             <p className={styles.coin_marketcap}>
               ${marketcap.toLocaleString()}
             </p>
